@@ -1,0 +1,22 @@
+Title: SOC Lab - Network Scan and Traffic Analysis
+
+1. Nmap Scan:
+
+I performed a network scan on my local system using Nmap.
+
+The scan identified an open port:
+- Port 9050 (tor-socks service)
+
+This indicates that a proxy service is running on the system.
+
+---
+
+2. Wireshark Analysis:
+
+I used Wireshark to capture network traffic during the scan.
+
+I observed TCP and TLS traffic between my system (192.168.0.113) and external servers.
+
+The communication used port 443, which indicates secure HTTPS traffic.
+
+This helped me understand how network communication happens in real-world environments.
